@@ -1,0 +1,74 @@
+private String code;
+    private String name;
+    private String warranty;
+    private String category;
+    private double price;
+    private int stockLevel;
+    private String supplier;
+
+//////////////////////////////////////////////////////////
+    public String getProductCode()
+    {
+        return code;
+    }
+    public void setProductCode(String Code)
+    {
+        
+        Code=this.code;
+        
+    }
+    //////////////////////////////////////////////////////////
+    public String getProductName()
+    {
+        return name;
+    }
+    public void setProductName(String ProductName)
+    {
+        this.name=ProductName;
+    }
+    //////////////////////////////////////////////////////////
+    public String getProductWarranty()
+    {
+        return warranty;
+    }
+    public void setProductWarranty(String ProductWarranty)
+    {
+        this.warranty=ProductWarranty;
+    }
+    
+    //////////////////////////////////////////////////////////
+    public String getProductCategory()
+    {
+        return category;
+    }
+    public void setProductCategory(String ProductCategory)
+    {
+        this.category=ProductCategory;
+    }
+    //////////////////////////////////////////////////////////
+    public double getProductPrice()
+    {
+        return price;
+    }
+    public void setProductPrice(double ProductPrice)
+    {
+        this.price=ProductPrice;
+    }
+    //////////////////////////////////////////////////////////
+    public int getProductStockLevel()
+    {
+        return stockLevel;
+    }
+    public void setProductStockLevel(int ProductStockLevel)
+    {
+        this.stockLevel=ProductStockLevel;
+    }   
+    //////////////////////////////////////////////////////////
+    public String getProductSupplier()
+    {
+        return supplier;
+    }
+    public void setProductSupplier(String ProductSupplier)
+    {
+        this.supplier=ProductSupplier;
+    } 
